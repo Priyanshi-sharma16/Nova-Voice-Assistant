@@ -1,47 +1,66 @@
-Title: Nova - Voice Activated AI Assistant
+🌟 Project Title: Nova - Voice Activated AI Assistant
 
-Nova is a smart voice-controlled virtual assistant developed using Python. It is capable of performing multiple tasks like web browsing, music playback, and reading out the latest news — all with simple voice commands.
+Nova is a smart, voice-controlled virtual assistant developed using Python. It can perform real-world tasks like web browsing, music playback, and fetching news headlines — all triggered by your voice.
 
-This project is aimed at showcasing how voice interfaces can be integrated with real-time functionalities to create a basic yet practical assistant, similar to Alexa or Google Assistant.
+This project is a hands-on implementation of how voice interfaces can power daily utilities, much like Alexa or Google Assistant.
 
-Features:
+🚀 Features:
 
-• Voice recognition using the speech_recognition library
-• Activated by the wake word "Hello"
-• Converts text to speech using both pyttsx3 (offline) and gTTS with pygame (online playback)
-• Opens websites like Google, YouTube, Facebook, and LinkedIn using voice commands
-• Plays music through links stored in a custom music library module
-• Fetches and reads out the latest headlines using NewsAPI
-• Future-ready for OpenAI GPT integration to handle general queries
+🎙️ Voice Recognition using the speech_recognition library
 
-Technology Stack:
+🗣️ Activated by the wake word "Hello"
 
-• Python
-• Libraries used: speech_recognition, pyttsx3, gTTS, pygame, webbrowser, requests
-• Future scope: Integration with openai for AI-powered answers
+🔊 Converts text to speech using both pyttsx3 (offline) and gTTS with pygame (online playback)
 
-How to Run the Project:
+🌐 Opens websites like Google, YouTube, Facebook, and LinkedIn through simple voice commands
 
-1. Clone the project using Git
-2. Install all required libraries using pip
-3. Run the main Python file named nova.py
-4. Make sure your microphone and speaker are working
-5. You can say "Hello" to activate Nova and give any of the supported commands
+🎵 Plays music using links from a custom musicLibrary module
 
-Example commands:
-– Open Google
-– Open YouTube
-– Play a song
-– Read the news
+📰 Fetches and speaks out the latest headlines using NewsAPI
 
-Optional Future Enhancements:
+🤖 Future-ready for integration with OpenAI's GPT models to answer general queries
 
-• Integration with GPT models for smarter Q&A
-• Addition of weather reports
-• Sending emails through voice
-• GUI interface using Tkinter or PyQt
+🛠️ Tech Stack:
 
-Project Author:
+Python
+
+Libraries used: speech_recognition, pyttsx3, gTTS, pygame, webbrowser, requests
+
+Future scope: Integration with openai for smart assistant behavior
+
+📦 How to Run the Project:
+
+Clone the repository
+
+Install all required Python libraries using pip install
+
+Make sure your microphone and speaker are working properly
+
+Run the main Python file: nova.py
+
+Say "Hello" to activate Nova and then speak any of the supported commands
+
+Supported Example Commands:
+
+"Open Google"
+
+"Open YouTube"
+
+"Play [song name]"
+
+"Read the news"
+
+🌱 Future Enhancements:
+
+Integration with OpenAI GPT for smarter question-answering
+
+Weather report feature
+
+Sending emails via voice commands
+
+GUI interface using Tkinter or PyQt for better interactivity
+
+👩‍💻 Author:
 
 Priyanshi Sharma
 https://www.linkedin.com/in/priyanshi-sharma-b00167256/
